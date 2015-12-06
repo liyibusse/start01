@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">  
+        <title>Workshop HTML5 & CSS3</title>
+        <!--
+            Quelltext zum Buch "Workshop HTML5 & CSS3"
+            Verlag:     dpunkt.verlag GmbH
+            Copyright:  2012 Stephan Heller <heller@daik.de>
+            Lizenz:     GNU General Public License
+            Verwendung der Quelltexte ausdrücklich gestattet und gewünscht!
+            Weitere Quelltexte finden Sie unter http://www.h5c3.de
+        -->
+        <link rel="stylesheet" href="_css/style.css">
+    </head>
+    <body>
+        <div id="skip">
+            <nav>
+                <p><a class="unsichtbar" href="#inhalt">zum Inhalt</a></p>
+            </nav>
+        </div>
+        <div id="kopf">
+            <div id="kopf-oben">
+                <img id="logo" src="img/logo-kinowebseite.png" alt="Logo Kino-Webseite">
+                <div class="meta-navigation">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Start</a></li>
+                            <li><a href="#">Suche</a></li>
+                            <li><a href="#">Forum</a></li>
+                            <li><a href="#">Newsletter</a></li>
+                            <li>
+                                <span class="unsichtbar">Ausgewählte Seite: </span>
+                                <a href="#" class="auswahl">Sitemap</a>
+                            </li>
+                            <li><a href="#">Presse</a></li>
+                            <li><a href="#">Partner</a></li>
+                            <li><a href="#">Impressum</a></li>
+                            <li><a href="#">Kontakt</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="float-ende"></div>
+            </div>
+            <div id="kopf-unten">
+                <div id="navigation">
+                    <nav >
+                        <ul>
+                            <li><a href="#">Programm</a></li>
+                            <li><a href="#">Filme von A-Z</a></li>
+                            <li>
+                                <span class="unsichtbar">Ausgewählte Seite: </span>
+                                <a href="#" class="auswahl">Themen</a>
+                            </li>
+                            <li><a href="#">Aktuelles</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <img id="key-visual" src="img/nevada-wueste.jpg" alt="Wüste in Nevada / Amerika">
+
+                <div class="float-ende"></div>
+            </div>
+        </div>
+        <div id="inhalt" class="inhaltsseite">
+            <div id="navigation-inhalt">
+                <nav>
+                    <ul>
+                        <li><a href="#">Aktuelles im Kino</a></li>
+                        <li><a href="#">Filme von A - Z</a></li>
+                        <li>
+                            <span class="unsichtbar">Ausgewählte Seite: </span>
+                            <a class="auswahl" href="#">Filmtipps</a>
+                        </li>
+                        <li><a href="#">Fotos und Trailer</a></li>
+                        <li><a href="#">Film der Woche</a></li>
+                        <li><a href="#">Demnächst im Kino</a></li>
+                        <li><a href="#">Suche</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="haupt-inhalt">
+                <div class="article-tag">
+                    <article>
+                        <header>
+                            <h1>Movie "Route 66 - An American (bad)Dream"</h1>
+                            <p><strong>Deutschlands erster <span lang="en">Open Source</span> Film</strong>, Stefan Kluge, 2009 Laufzeit: 104 <abbr title="Minuten">Min.</abbr></p>
+                        </header>
+                        <video controls preload poster="img/lilos-cafe-route66.jpg">
+                            <source src="media/route66.mp4" type="video/mp4">
+                            <source src="media/route66.ogv" type="video/ogg">
+                            <p>Ihr Browser unterstützt die direkte Anzeige von Videos nicht.<br>
+                                Das Video zum Download: <a href="media/route66.mp4">
+                                    Route 66 - An American (bad)Dream (MP4, 255MB)</a>
+                            </p>
+                        </video>
+                        <audio controls>
+                            <source src="media/route_66_soundtrack.mp3">
+                            <source src="media/route_66_soundtrack.ogg">
+                            <p>Das Audio zum Download: <a href="media/route_66_soundtrack.mp3">Soundtrack Route 66 (MP3, 44MB)</a></p>
+                        </audio>
+                    </article>
+                </div>
+            </div>
+            <div class="float-ende"></div>
+        </div>
+        <div id="fuss">
+            <div id="fuss-oben">
+                <div id="druck">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Druckversion</a></li>
+                            <li><a href="#">Seitenanfang</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="meta-navigation">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Start</a></li>
+                            <li><a href="#">Suche</a></li>
+                            <li><a href="#">Forum</a></li>
+                            <li><a href="#">Newsletter</a></li>
+                            <li>
+                                <span class="unsichtbar">Ausgewählte Seite: </span>
+                                <a href="#" class="auswahl">Sitemap</a>
+                            </li>
+                            <li><a href="#">Presse</a></li>
+                            <li><a href="#">Partner</a></li>
+                            <li><a href="#">Impressum</a></li>
+                            <li><a href="#">Kontakt</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="float-ende"></div>
+            </div>
+            <div id="copyright"><p>&copy; 2012 KinoWebseite</p></div>
+        </div>
+    </body>
+</html>

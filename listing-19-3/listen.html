@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">  
+        <title>Workshop HTML5 & CSS3</title>
+        <!--
+            Quelltext zum Buch "Workshop HTML5 & CSS3"
+            Verlag:     dpunkt.verlag GmbH
+            Copyright:  2012 Stephan Heller <heller@daik.de>
+            Lizenz:     GNU General Public License
+            Verwendung der Quelltexte ausdrücklich gestattet und gewünscht!
+            Weitere Quelltexte finden Sie unter http://www.h5c3.de
+        -->
+        <link rel="stylesheet" href="_css/style.css">
+        <link rel="stylesheet" href="_css/listen.css">
+    </head>
+    <body>
+        <div id="skip">
+            <nav>
+                <p><a class="unsichtbar" href="#inhalt">zum Inhalt</a></p>
+            </nav>
+        </div>
+        <div id="kopf">
+            <div id="kopf-oben">
+                <img id="logo" src="img/logo-kinowebseite.png" alt="Logo Kino-Webseite">
+                <div class="meta-navigation">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Start</a></li>
+                            <li><a href="#">Suche</a></li>
+                            <li><a href="#">Forum</a></li>
+                            <li><a href="#">Newsletter</a></li>
+                            <li>
+                                <span class="unsichtbar">Ausgewählte Seite: </span>
+                                <a href="#" class="auswahl">Sitemap</a>
+                            </li>
+                            <li><a href="#">Presse</a></li>
+                            <li><a href="#">Partner</a></li>
+                            <li><a href="#">Impressum</a></li>
+                            <li><a href="#">Kontakt</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="float-ende"></div>
+            </div>
+            <div id="kopf-unten">
+                <div id="navigation">
+                    <nav >
+                        <ul>
+                            <li><a href="#">Programm</a></li>
+                            <li><a href="#">Filme von A-Z</a></li>
+                            <li>
+                                <span class="unsichtbar">Ausgewählte Seite: </span>
+                                <a href="#" class="auswahl">Themen</a>
+                            </li>
+                            <li><a href="#">Aktuelles</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <img id="key-visual" src="img/ziemlich-beste-freunde.jpg" alt="Ziemlich beste Freunde">
+                <div class="float-ende"></div>
+            </div>
+        </div>
+        <div id="inhalt" class="inhaltsseite">
+            <div id="navigation-inhalt">
+                <nav>
+                    <ul>
+                        <li><a href="#">Aktuelles im Kino</a></li>
+                        <li><a href="#">Filme von A - Z</a></li>
+                        <li>
+                            <span class="unsichtbar">Ausgewählte Seite: </span>
+                            <a class="auswahl" href="#">Filmtipps</a>
+                        </li>
+                        <li><a href="#">Fotos und Trailer</a></li>
+                        <li><a href="#">Film der Woche</a></li>
+                        <li><a href="#">Demnächst im Kino</a></li>
+                        <li><a href="#">Suche</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="haupt-inhalt">
+                <!-- Zur Demo ist hier die ID listen-demo vergeben und darüber das CSS auf diese Seite eingegrenzt. 
+                     Das Beispiel-CSS ist in der separaten CSS-Datei listen.css zu finden-->
+                <div  id="listen-demo" class="article-tag">
+                    <article>
+                        <hgroup>
+                            <h2> Oscar-Preisträger Bester Film </h2>
+                            <h3> 1991–2000</h3>
+                        </hgroup>
+                        <h4>Demo Liste 1</h4>
+                        <ol start="1991" class="liste-1">
+                            <li>Der mit dem Wolf tanzt</li>
+                            <li>Das Schweigen der Lämmer</li>
+                            <li>Erbarmungslos</li>
+                            <li>Schindlers Liste</li>
+                            <li>Forrest Gump</li>
+                            <li>Braveheart</li>
+                            <li>Der englische Patient</li>
+                            <li>Titanic</li>
+                            <li>Shakespeare in Love</li>
+                            <li>American Beauty</li>
+                        </ol>
+                        <h4>Demo Liste 2</h4>
+                        <ol start="1991" class="liste-2">
+                            <li>Der mit dem Wolf tanzt</li>
+                            <li>Das Schweigen der Lämmer</li>
+                            <li>Erbarmungslos</li>
+                            <li>Schindlers Liste</li>
+                            <li>Forrest Gump</li>
+                            <li>Braveheart</li>
+                            <li>Der englische Patient</li>
+                            <li>Titanic</li>
+                            <li>Shakespeare in Love</li>
+                            <li>American Beauty</li>
+                        </ol>
+                        <h4>Demo Liste 3</h4>
+                        <ol start="1991" class="liste-3">
+                            <li>Der mit dem Wolf tanzt</li>
+                            <li>Das Schweigen der Lämmer</li>
+                            <li>Erbarmungslos</li>
+                            <li>Schindlers Liste</li>
+                            <li>Forrest Gump</li>
+                            <li>Braveheart</li>
+                            <li>Der englische Patient</li>
+                            <li>Titanic</li>
+                            <li>Shakespeare in Love</li>
+                            <li>American Beauty</li>
+                        </ol>
+                        <h4>Demo Liste 4</h4>
+                        <ol start="1991" class="liste-4">
+                            <li>Der mit dem Wolf tanzt</li>
+                            <li>Das Schweigen der Lämmer</li>
+                            <li>Erbarmungslos</li>
+                            <li>Schindlers Liste</li>
+                            <li>Forrest Gump</li>
+                            <li>Braveheart</li>
+                            <li>Der englische Patient</li>
+                            <li>Titanic</li>
+                            <li>Shakespeare in Love</li>
+                            <li class="last">American Beauty</li>
+                            <!-- Die letzte Klasse "last" ist notwendig für die Abwärtskompatibilität für IE8 und drunter  -->
+                        </ol>
+                        <h4>Demo Liste 5</h4>
+                        <ol start="1991" class="liste-5">
+                            <li>Der mit dem Wolf tanzt</li>
+                            <li>Das Schweigen der Lämmer</li>
+                            <li>Erbarmungslos</li>
+                            <li>Schindlers Liste</li>
+                            <li>Forrest Gump</li>
+                            <li>Braveheart</li>
+                            <li>Der englische Patient</li>
+                            <li>Titanic</li>
+                            <li>Shakespeare in Love</li>
+                            <li>American Beauty</li>
+                        </ol>
+                        <h4>Demo Liste 6</h4>
+                        <ol start="1991" class="liste-6">
+                            <li>Der mit dem Wolf tanzt</li>
+                            <li>Das Schweigen der Lämmer</li>
+                            <li>Erbarmungslos</li>
+                            <li>Schindlers Liste</li>
+                            <li>Forrest Gump</li>
+                            <li>Braveheart</li>
+                            <li>Der englische Patient</li>
+                            <li>Titanic</li>
+                            <li>Shakespeare in Love</li>
+                            <li>American Beauty</li>
+                        </ol>
+                        <h4>Demo Liste 7</h4>
+                        <ol start="1991" class="liste-7">
+                            <li>Der mit dem Wolf tanzt</li>
+                            <li>Das Schweigen der Lämmer</li>
+                            <li>Erbarmungslos</li>
+                            <li>Schindlers Liste</li>
+                            <li>Forrest Gump</li>
+                            <li>Braveheart</li>
+                            <li>Der englische Patient</li>
+                            <li>Titanic</li>
+                            <li>Shakespeare in Love</li>
+                            <li>American Beauty</li>
+                        </ol>
+                        <h4>Demo Liste 8</h4>
+                        <ol start="1991" class="liste-8">
+                            <li>Der mit dem Wolf tanzt</li>
+                            <li>Das Schweigen der Lämmer</li>
+                            <li>Erbarmungslos</li>
+                            <li>Schindlers Liste</li>
+                            <li>Forrest Gump</li>
+                            <li>Braveheart</li>
+                            <li>Der englische Patient</li>
+                            <li>Titanic</li>
+                            <li>Shakespeare in Love</li>
+                            <li>American Beauty</li>
+                        </ol>
+                        <h4>Demo Liste 9</h4>
+                        <ol start="1991" class="liste-9">
+                            <li>Der mit dem Wolf tanzt</li>
+                            <li>Das Schweigen der Lämmer</li>
+                            <li>Erbarmungslos</li>
+                            <li>Schindlers Liste</li>
+                            <li>Forrest Gump</li>
+                            <li>Braveheart</li>
+                            <li>Der englische Patient</li>
+                            <li>Titanic</li>
+                            <li>Shakespeare in Love</li>
+                            <li>American Beauty</li>
+                        </ol>
+                    </article>
+                </div>
+            </div>
+            <div class="float-ende"></div>
+        </div>
+        <div id="fuss">
+            <div id="fuss-oben">
+                <div id="druck">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Druckversion</a></li>
+                            <li><a href="#">Seitenanfang</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="meta-navigation">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Start</a></li>
+                            <li><a href="#">Suche</a></li>
+                            <li><a href="#">Forum</a></li>
+                            <li><a href="#">Newsletter</a></li>
+                            <li>
+                                <span class="unsichtbar">Ausgewählte Seite: </span>
+                                <a href="#" class="auswahl">Sitemap</a>
+                            </li>
+                            <li><a href="#">Presse</a></li>
+                            <li><a href="#">Partner</a></li>
+                            <li><a href="#">Impressum</a></li>
+                            <li><a href="#">Kontakt</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="float-ende"></div>
+            </div>
+            <div id="copyright"><p>&copy; 2012 KinoWebseite</p></div>
+        </div>
+    </body>
+</html>

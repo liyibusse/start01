@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">  
+        <title>Workshop HTML5 & CSS3</title>
+        <!--
+            Quelltext zum Buch "Workshop HTML5 & CSS3"
+            Verlag:     dpunkt.verlag GmbH
+            Copyright:  2012 Stephan Heller <heller@daik.de>
+            Lizenz:     GNU General Public License
+            Verwendung der Quelltexte ausdrücklich gestattet und gewünscht!
+            Weitere Quelltexte finden Sie unter http://www.h5c3.de
+        -->
+        <link rel="stylesheet" href="_css/style.css">
+    </head>
+    <body>
+        <div id="skip">
+            <nav>
+                <p><a class="unsichtbar" href="#inhalt">zum Inhalt</a></p>
+            </nav>
+        </div>
+        <div id="kopf">
+            <div id="kopf-oben">
+                <img id="logo" src="img/logo-kinowebseite.png" alt="Logo Kino-Webseite">
+                <div class="meta-navigation">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Start</a></li>
+                            <li><a href="#">Suche</a></li>
+                            <li><a href="#">Forum</a></li>
+                            <li><a href="#">Newsletter</a></li>
+                            <li>
+                                <span class="unsichtbar">Ausgewählte Seite: </span>
+                                <a href="#" class="auswahl">Sitemap</a>
+                            </li>
+                            <li><a href="#">Presse</a></li>
+                            <li><a href="#">Partner</a></li>
+                            <li><a href="#">Impressum</a></li>
+                            <li><a href="#">Kontakt</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="float-ende"></div>
+            </div>
+            <div id="kopf-unten">
+                <div id="navigation">
+                    <nav >
+                        <ul>
+                            <li><a href="#">Programm</a></li>
+                            <li><a href="#">Filme von A-Z</a></li>
+                            <li>
+                                <span class="unsichtbar">Ausgewählte Seite: </span>
+                                <a href="#" class="auswahl">Themen</a>
+                            </li>
+                            <li><a href="#">Aktuelles</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <img id="key-visual" src="img/ziemlich-beste-freunde.jpg" alt="Ziemlich beste Freunde">
+                <div class="float-ende"></div>
+            </div>
+        </div>
+        <div id="inhalt" class="volle-breite">
+            <div id="haupt-inhalt">
+                <div class="section-tag">
+                    <section>
+                        <header>
+                            <h1>Kinoprogramm</h1>
+                        </header>
+                        <table class="programm">
+                            <caption>Kinoprogramm für die Woche vom 22. - 28. März 2012</caption>
+                            <thead>
+                                <tr>
+                                    <th scope="row">Tag</th>
+                                    <th scope="col">Montag</th>
+                                    <th scope="col">Dienstag</th>
+                                    <th scope="col">Mittwoch</th>
+                                    <th scope="col">Donnerstag</th>
+                                    <th scope="col">Freitag</th>
+                                    <th scope="col">Samstag</th>
+                                    <th scope="col">Sonntag</th>
+                                </tr>
+                            </thead>
+                            <tfoot>
+                                <tr>
+                                    <th scope="row">Anzahl Filme</th>
+                                    <td>3</td>
+                                    <td>3</td>
+                                    <td>4</td>
+                                    <td>3</td>
+                                    <td>3</td>
+                                    <td>5</td>
+                                    <td>5</td>
+                                </tr>
+                            </tfoot>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">15:00</th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td title="Spezial: Familienrabatt: 25% ab vier Personen">Fünf Freunde</td>
+                                    <td>Fünf Freunde</td>
+                                    <td>Fünf Freunde</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">17:30</th>
+                                    <td>Hugo Cabret</td>
+                                    <td>Hugo Cabret</td>
+                                    <td>Hugo Cabret</td>
+                                    <td>Hugo Cabret</td>
+                                    <td>Hugo Cabret</td>
+                                    <td>Hugo Cabret</td>
+                                    <td title="Spezial: Sing-along-vorstellung">Hugo Cabret</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">20:00</th>
+                                    <td>Die Eiserne Lady</td>
+                                    <td>Die Eiserne Lady</td>
+                                    <td>Die Eiserne Lady</td>
+                                    <td>Die Eiserne Lady</td>
+                                    <td>Die Eiserne Lady</td>
+                                    <td>Die Eiserne Lady</td>
+                                    <td>Die Eiserne Lady</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">22:00</th>
+                                    <td>Unser Leben</td>
+                                    <td>Unser Leben</td>
+                                    <td>Unser Leben</td>
+                                    <td>Unser Leben</td>
+                                    <td title="Spezial: Original mit Untertitel">Unser Leben</td>
+                                    <td>Unser Leben</td>
+                                    <td>Unser Leben</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">23:45</th>
+                                    <td></td>
+                                    <td></td>
+                                    <td title="Spezial: Halber Preis">Preview</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>   
+                        </table>
+                    </section>
+                </div>
+            </div>
+            <div class="float-ende"></div>
+        </div>
+        <div id="fuss">
+            <div id="fuss-oben">
+                <div id="druck">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Druckversion</a></li>
+                            <li><a href="#">Seitenanfang</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="meta-navigation">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Start</a></li>
+                            <li><a href="#">Suche</a></li>
+                            <li><a href="#">Forum</a></li>
+                            <li><a href="#">Newsletter</a></li>
+                            <li>
+                                <span class="unsichtbar">Ausgewählte Seite: </span>
+                                <a href="#" class="auswahl">Sitemap</a>
+                            </li>
+                            <li><a href="#">Presse</a></li>
+                            <li><a href="#">Partner</a></li>
+                            <li><a href="#">Impressum</a></li>
+                            <li><a href="#">Kontakt</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="float-ende"></div>
+            </div>
+            <div id="copyright"><p>&copy; 2012 KinoWebseite</p></div>
+        </div>
+    </body>
+</html>
