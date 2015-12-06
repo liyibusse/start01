@@ -1,0 +1,126 @@
+/*_____________________________________________________________
+|
+|   Quelltext zum Buch "Workshop HTML5 & CSS3"
+|   Verlag:     dpunkt.verlag GmbH
+|   Copyright:  2012 Stephan Heller <heller@h5c3.de>
+|   Lizenz:     GNU General Public License
+|   Verwendung der Quelltexte ausdrücklich gestattet und gewünscht!
+|   Weitere Quelltexte finden Sie unter http://www.h5c3.de
+|_______________________________________________________________ */
+
+/***************************
+* Text-Bild-Variationen mit CSS3
+***************************/
+
+#inhalt {
+    margin: 50px;
+}
+#inhalt p {
+    border: 1px solid #333333;
+    background-color: #eeeeee;
+    width: 500px;
+    margin-bottom: 50px;
+    font-family: 'Comic Sans MS', fantasy;
+    font-size: 18px;
+}
+#inhalt p.demo-1 {
+    padding: 20px;
+    width: 300px;
+}
+#inhalt p.demo-1 img {
+    float: right;
+    margin: 0px 0px 10px 20px;
+}
+#inhalt p.demo-2{
+    padding: 20px;
+    padding-left: 140px;
+    width: 200px;
+    position: relative;
+}
+#inhalt p.demo-2 img {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    border: 1px solid #333;
+}
+#inhalt p.demo-3 {
+    border: 10px solid silver;
+    border-radius: 30px;
+    padding: 20px;
+    width: 320px;
+}
+#inhalt p.demo-3 img {
+    border: 10px solid #333;
+    border-radius: 20px;
+    float: left;
+    margin: 0px 20px 20px 0px;
+}
+#inhalt p.demo-4 {
+    border: 2px solid firebrick;
+    padding: 20px;
+    border-radius: 8px;
+}
+#inhalt p.demo-4 img {
+    border: 2px solid firebrick;
+    float: right;
+    margin: 0px 10px;
+    position: relative;
+    bottom: 50px;
+    border-radius: 5px;
+    box-shadow: firebrick 20px 20px 0px;   
+}
+#inhalt p.demo-5 {
+    margin: 150px;
+    padding: 20px;
+    border: 1px solid yellowgreen;
+    border-radius: 10px;
+    box-shadow: yellowgreen 0px 0px 40px;  
+}
+#inhalt p.demo-5 img {
+    margin: -30px 20px 0px;
+    float: right;
+    box-shadow: darkblue 0px 0px 40px;   
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+#inhalt p.demo-6 {
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-transform: skew(-10deg,0deg);
+    -moz-transform: skew(-10deg,0deg);
+    -o-transform: skew(-10deg,0deg);
+    -ms-transform: skew(-10deg,0deg);
+    transform: skew(-10deg,0deg);
+}
+#inhalt p.demo-6 img {
+    float: left;
+    margin: 0px 50px;
+    -webkit-transform: skew(20deg,0deg);
+    -moz-transform: skew(20deg,0deg);
+    -o-transform: skew(20deg,0deg);
+    -ms-transform: skew(20deg,0deg);
+    transform: skew(20deg,0deg);
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+#inhalt p.demo-7 {
+    padding: 10px;
+    background-color: transparent;
+    -webkit-perspective: 150px;   
+    -moz-perspective: 150px;   
+    -o-perspective: 150px;   
+    -ms-perspective: 150px;   
+    perspective: 150px;   
+}
+#inhalt p.demo-7 img {
+    float: right;
+    margin: 20px;
+    -webkit-transform: rotateY(-50deg);
+    -moz-transform: rotateY(-50deg);
+    -o-transform: rotate(-50deg);
+    -ms-transform: rotate(-50deg);
+    transform: rotateY(-50deg);
+}
